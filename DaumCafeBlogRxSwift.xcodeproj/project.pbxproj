@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		1EC36C9027A353B800A51F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC36C8F27A353B800A51F90 /* AppDelegate.swift */; };
 		1EC36C9227A353B800A51F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC36C9127A353B800A51F90 /* SceneDelegate.swift */; };
-		1EC36C9427A353B800A51F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC36C9327A353B800A51F90 /* ViewController.swift */; };
-		1EC36C9727A353B800A51F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC36C9527A353B800A51F90 /* Main.storyboard */; };
 		1EC36C9927A353BA00A51F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC36C9827A353BA00A51F90 /* Assets.xcassets */; };
 		1EC36C9C27A353BA00A51F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC36C9A27A353BA00A51F90 /* LaunchScreen.storyboard */; };
+		1EC36CA427A362E500A51F90 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC36CA327A362E500A51F90 /* MainViewController.swift */; };
+		1EC36CA627A363C100A51F90 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC36CA527A363C100A51F90 /* SearchBar.swift */; };
+		1EC36CA827A36AB500A51F90 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC36CA727A36AB500A51F90 /* FilterView.swift */; };
 		5ACD22C42FD16C7113A9EE37 /* Pods_DaumCafeBlogRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF9C899253521FCDB61AECD /* Pods_DaumCafeBlogRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +21,12 @@
 		1EC36C8C27A353B800A51F90 /* DaumCafeBlogRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaumCafeBlogRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC36C8F27A353B800A51F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EC36C9127A353B800A51F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EC36C9327A353B800A51F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1EC36C9627A353B800A51F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EC36C9827A353BA00A51F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC36C9B27A353BA00A51F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EC36C9D27A353BA00A51F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC36CA327A362E500A51F90 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1EC36CA527A363C100A51F90 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1EC36CA727A36AB500A51F90 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		2413E4B0255DC4542C20C6B1 /* Pods-DaumCafeBlogRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaumCafeBlogRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-DaumCafeBlogRxSwift/Pods-DaumCafeBlogRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		44C20F40738D922B6B17A0E7 /* Pods-DaumCafeBlogRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaumCafeBlogRxSwift.release.xcconfig"; path = "Target Support Files/Pods-DaumCafeBlogRxSwift/Pods-DaumCafeBlogRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		DFF9C899253521FCDB61AECD /* Pods_DaumCafeBlogRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaumCafeBlogRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +67,9 @@
 			children = (
 				1EC36C8F27A353B800A51F90 /* AppDelegate.swift */,
 				1EC36C9127A353B800A51F90 /* SceneDelegate.swift */,
-				1EC36C9327A353B800A51F90 /* ViewController.swift */,
-				1EC36C9527A353B800A51F90 /* Main.storyboard */,
+				1EC36CA327A362E500A51F90 /* MainViewController.swift */,
+				1EC36CA527A363C100A51F90 /* SearchBar.swift */,
+				1EC36CA727A36AB500A51F90 /* FilterView.swift */,
 				1EC36C9827A353BA00A51F90 /* Assets.xcassets */,
 				1EC36C9A27A353BA00A51F90 /* LaunchScreen.storyboard */,
 				1EC36C9D27A353BA00A51F90 /* Info.plist */,
@@ -88,7 +91,6 @@
 				2413E4B0255DC4542C20C6B1 /* Pods-DaumCafeBlogRxSwift.debug.xcconfig */,
 				44C20F40738D922B6B17A0E7 /* Pods-DaumCafeBlogRxSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,7 +156,6 @@
 			files = (
 				1EC36C9C27A353BA00A51F90 /* LaunchScreen.storyboard in Resources */,
 				1EC36C9927A353BA00A51F90 /* Assets.xcassets in Resources */,
-				1EC36C9727A353B800A51F90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC36C9427A353B800A51F90 /* ViewController.swift in Sources */,
+				1EC36CA427A362E500A51F90 /* MainViewController.swift in Sources */,
+				1EC36CA627A363C100A51F90 /* SearchBar.swift in Sources */,
 				1EC36C9027A353B800A51F90 /* AppDelegate.swift in Sources */,
+				1EC36CA827A36AB500A51F90 /* FilterView.swift in Sources */,
 				1EC36C9227A353B800A51F90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1EC36C9527A353B800A51F90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EC36C9627A353B800A51F90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1EC36C9A27A353BA00A51F90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,7 +359,7 @@
 				INFOPLIST_FILE = DaumCafeBlogRxSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,7 +388,7 @@
 				INFOPLIST_FILE = DaumCafeBlogRxSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
