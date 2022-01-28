@@ -9,5 +9,6 @@ target 'DaumCafeBlogRxSwift' do
     pod 'RxSwift', '6.5.0'
     pod 'RxCocoa', '6.5.0'
     pod 'SnapKit', '~> 5.0.0'
+    pod 'Kingfisher', '~> 7.0'
 
 end
